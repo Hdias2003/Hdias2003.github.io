@@ -249,7 +249,7 @@ h1, h2, h3, h4, p, li { word-break: break-word; hyphens: auto }
 }
 
 /* Global font */
-body { font-family: var(--global-font); }
+body { font-family: "American Typewriter Normal" }
 
 h1{
   font-size: calc(var(--fs-xxxl) * .8);
