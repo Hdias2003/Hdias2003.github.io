@@ -9,6 +9,7 @@
 
 
 <link rel="stylesheet" href="assets/css/global.css">
+<link rel="preload" href="assets/vid/background-still.jpg" as="image">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">    
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">    
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">    
@@ -17,12 +18,26 @@
 </head>
 <body>
     <header>
-    <h1>Hi, I'm Heitor Dias</h1>
-
-    <h1>Purple Pixels Web Agency</h1>
-
-    <h2>Web / UI Designer</h2>
     
+
+    <div class="hero-text-container">
+            <div class="slide-in-top">
+                <h1>Hi, I'm Heitor Dias</h1>
+            </div>
+        </div>
+    
+            <div class="hero-text-container">
+                <div class="slide-in-left">
+                    <h2>Web / UI Designer</h2>
+                </div>
+            </div>
+    
+
+        <div class="hero-bg-media">
+            <video loop playsinline muted autoplay poster="assets/vid/background-still.jpg" class="background-video" disablepictureinpicture preload="auto"> 
+            <source src="assets/vid/backgroung.mp4" type="video/mp4">
+            </video>
+        </div>
 
     </header>
 

@@ -249,7 +249,8 @@ h1, h2, h3, h4, p, li { word-break: break-word; hyphens: auto }
 }
 
 /* Global font */
-body { font-family: var(--global-font); }
+body { font-family: var(--global-font);
+background-image: linear-gradient(90deg,#ff00cc,#333399); }
 
 
 /* ============= CSS FOR HERO BLOCK ============= */
@@ -264,7 +265,17 @@ header {
     /* Optionally, centre child div horizontally */
     text-align: center;
     /* Background colour */
-    background-image: linear-gradient(90deg,#ff00cc,#333399);
+    
+}
+
+h1 {
+    font-size: calc(var(--fs-xxxl) * .8);
+    line-height: 1.2;
+    color: white;
+    font-family: var(--font-serif);
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: -3px;
 }
 
 /* Set minimum height of hero block */
